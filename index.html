@@ -11,6 +11,9 @@
     <!-- Custom CSS Linked  -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Awsome Linked  -->
+    <script src="https://kit.fontawesome.com/690119509f.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     
@@ -49,47 +52,47 @@
 
         <!-- Carousel Design Start  -->
         <section class="container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="fs-1 fw-bold">Learning HTML5</h5>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5 class="fs-1 fw-bold">Learning HTML5</h5>
                       <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
                       <button class="btn btn-primary">Get Started</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="fs-1 fw-bold">Learning CSS3</h5>
-                      <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced.</p>
-                      <button class="btn btn-primary">Get Started</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 class="fs-1 fw-bold">Learning Bootstrap 5</h5>
-                      <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
-                      <button class="btn btn-primary">Get Started</button>
-                    </div>
-                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5 class="fs-1 fw-bold">Learning HTML5</h5>
+                      <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+                      <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5 class="fs-1 fw-bold">Learning HTML5</h5>
+                      <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+                      <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
         <!-- Carousel Design End  -->
 
@@ -97,41 +100,216 @@
         <!-- Our Popular Courses Design Start -->
         <section class="container">
             <div class="w-50 m-auto">
-                <h1 class="fs-3 text-center">Discover Our Popular Courses</h1>
-                <p class="text-center">This Courses is Very Helpfull for Any Person, So, Do You Need Any Helpfull Course, Just Buy And Then Watch it</p>
+                <h1 class="fs-2 text-center fw-bold">Discover Our Popular Courses</h1>
+                <p class="text-center text-muted">This Courses is Very Helpfull for Any Person, So, Do You Need <br> Any Helpfull Course, Just Buy And Then Watch it</p>
             </div>
-            <div>
-                <div class="row g-0 m-3">
-                    <div class="col-md-6 d-flex align-items-center border border-primary rounded">
-                        <div class="me-4">
-                            <img class="img-fluid" src="images/course/course-1.png" alt="">
-                        </div>
-                        <div>
-                            <h1>Course 1</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
-                            <h5 class="text-primary">Price : 30$</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex align-items-center border border-primary rounded">
-                        <div class="me-4">
-                            <img class="img-fluid" src="images/course/course-1.png" alt="">
-                        </div>
-                        <div>
-                            <h1>Course 1</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
-                            <h5 class="text-primary">Price : 30$</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
 
-                    </div>
+            <div class="container px-4">
+              <div class="row g-5">
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-1.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
                 </div>
-            </div>
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-2.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-3.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-4.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-5.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-6">
+                 <div class="border bg-light d-flex">
+                  <div>
+                    <img class="img-fluid" src="images/course/course-6.png" alt="">
+                  </div>
+                  <div class="px-4">
+                    <h1>Course 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eius.</p>
+                    <h5 class="text-primary">Price : 30$</h5>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>  
+            <div class="text-center">
+              <button class="btn btn-primary">See More Courses</button>
+            </div>   
         </section>
         <!-- Our Popular Courses Design End -->
 
+
+        <!-- Ready to Join Section Design Start  -->
+        <section class="container">
+            <div class="row bg-primary p-5 rounded justify-content-between align-items-center">
+              <div class="col-lg-6 text-light">
+                <h1>Ready to Join</h1>
+                <p>Do You Want Learn Web Development And Web Designing? if You Want, Than Join Our Big Community</p>
+              </div>
+              <div class="col-lg-6 text-end">
+                <button class="btn btn-light fw-bold">Register Now</button>
+              </div>
+            </div>
+        </section>
+        <!-- Ready to Join Section Design End  -->
+
+
+        <!-- Question Ask Design Start  -->
+        <section class="container">
+          <div class="w-50 m-auto">
+            <h1 class="fs-2 text-center fw-bold">Frequently Asked Questions</h1>
+            <p class="text-center text-muted">This Courses is Very Helpfull for Any Person, So, Do You Need <br> Any Helpfull Course, Just Buy And Then Watch it</p>
+        </div>
+        <div class="accordion w-75 m-auto" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #4
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- Question Ask Design End  -->
+
+
+        <!-- Trusted Section Design Start  -->
+        <section class="container trusted-area">
+          <h1 class="text-center mb-4">Trusted by over 800+ companies</h1>
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-1.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-2.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-3.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-4.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-5.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col p-3">
+              <img src="images/company/company-6.png" alt="">
+            </div>
+          </div>
+        </section>
+        <!-- Trusted Section Design End  -->
+
     </main>
     <!-- Main Section Design End  -->
+
+
+    <!-- Footer Section Design Start  -->
+    <section class="bg-black">
+      <footer class="p-5 text-light">
+        <div class="text-center">
+         <h1>Personal <span class="text-danger">Demo Website</span></h1>
+         <h6>Office 23, Zinda Bazar, Sylhet, Bangladesh</h6>
+         <h6>Sultanate of Oman</h6>
+         <h6>Privecy Policy | Terms of use</h6>
+       <div class="fs-1">
+         <i class="fa-brands fa-facebook m-2"></i>
+         <i class="fa-brands fa-youtube m-2"></i>
+         <i class="fa-brands fa-instagram m-2"></i>
+         <i class="fa-brands fa-linkedin m-2"></i>
+       </div>
+        </div>
+     </footer>
+    </section>
+    <!-- Footer Section Design End  -->
 
 
 
