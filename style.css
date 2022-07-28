@@ -1,7 +1,18 @@
 .container{
     margin-bottom: 80px;
 }
+.car-img-1, .car-img-2, .car-img-3{
+    filter: brightness(0.5);
+}
 
+/* Media Query Useing  */
+@media screen and (max-width: 576px) {
+    .carousel img{
+        height: 60vw;
+    }
+
+    
+}
 @media screen and (max-width: 992px) {
     .trusted-area{
         display: none;
@@ -16,5 +27,3 @@
         width: 100%;
     }
 }
-
-
